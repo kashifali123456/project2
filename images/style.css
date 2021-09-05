@@ -1,0 +1,116 @@
+    header {
+        display: flex;
+        justify-content: center;
+        background-color: hsl(0, 0%, 95%);
+        padding: 120px 445px 120px 289px;
+        align-items: center;
+    }
+    
+    .sed {
+        flex: 1;
+        font-size: 15px;
+    }
+    
+    img {
+        padding-top: 50px;
+    }
+    
+    .sed h1 {
+        color: hsl(0, 0%, 95%);
+        padding-top: 20px;
+    }
+    
+    .sed p {
+        color: hsla(0, 0%, 100%, 0.75);
+        padding: 10px 10px 10px 0px;
+    }
+    
+    .sed1 {
+        width: 206px;
+        height: 500px;
+        margin: 22px;
+    }
+    
+    .sedan {
+        background-color: hsl(31, 77%, 52%);
+        border-start-start-radius: 2%;
+        border-bottom-left-radius: 2%;
+    }
+    
+    .suv {
+        background-color: hsl(184, 100%, 22%);
+    }
+    
+    .luxury {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 2%;
+        border-bottom-right-radius: 2%;
+    }
+    
+    .headbtn {
+        padding: 92px 0px 0px 20px;
+    }
+    
+    .sedbtn button {
+        color: hsl(31, 77%, 52%);
+    }
+    
+    .sedbtn button:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        border: 2px solid #fff;
+    }
+    
+    .suvbtn button {
+        color: hsl(184, 100%, 22%);
+    }
+    
+    .suvbtn button:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        border: 2px solid #fff;
+    }
+    
+    .luxbtn button {
+        color: hsl(179, 100%, 13%);
+    }
+    
+    .luxbtn button:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        border: 2px solid #fff;
+    }
+    
+    button {
+        background-color: white;
+        width: 137px;
+        height: 60px;
+        border-radius: 40%;
+        border: white;
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 500px) {
+        .header {
+            flex-direction: column;
+        }
+        .sed {
+            margin: -23px;
+        }
+        .sedan {
+            border-top-left-radius: 2%;
+            border-top-right-radius: 2%;
+        }
+        .luxury {
+            border-bottom-left-radius: 2%;
+            border-bottom-right-radius: 2%;
+        }
+        button {
+            padding-top: 5px;
+            width: 100px;
+            height: 43px;
+        }
+        button:hover {
+            transition: background-color;
+        }
+    }

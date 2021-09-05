@@ -17,16 +17,18 @@
     
     .sed h1 {
         color: hsl(0, 0%, 95%);
-        padding-top: 20px;
+        padding-top: 10px;
+        font-family: 'Big Shoulders Display', cursive;
     }
     
     .sed p {
         color: hsla(0, 0%, 100%, 0.75);
-        padding: 10px 10px 10px 0px;
+        padding: 7px 0px 0px 0px;
+        font-family: 'Lexend Deca', sans-serif;
     }
     
     .sed1 {
-        width: 206px;
+        width: 213px;
         height: 452px;
         margin: 22px;
     }

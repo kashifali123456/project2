@@ -12,7 +12,7 @@
     }
     
     img {
-        padding-top: 50px;
+        padding-top: 30px;
     }
     
     .sed h1 {
@@ -27,7 +27,7 @@
     
     .sed1 {
         width: 206px;
-        height: 500px;
+        height: 452px;
         margin: 22px;
     }
     
@@ -48,7 +48,7 @@
     }
     
     .headbtn {
-        padding: 92px 0px 0px 20px;
+        padding: 60px 0px 0px 20px;
     }
     
     .sedbtn button {
@@ -83,9 +83,9 @@
     
     button {
         background-color: white;
-        width: 137px;
-        height: 60px;
-        border-radius: 40%;
+        width: 130px;
+        height: 55px;
+        border-radius: 48%;
         border: white;
         cursor: pointer;
     }
@@ -100,17 +100,16 @@
         .sedan {
             border-top-left-radius: 2%;
             border-top-right-radius: 2%;
+            border-bottom-left-radius: 0%;
         }
         .luxury {
             border-bottom-left-radius: 2%;
             border-bottom-right-radius: 2%;
+            border-top-right-radius: 0%;
         }
         button {
             padding-top: 5px;
             width: 100px;
             height: 43px;
-        }
-        button:hover {
-            transition: background-color;
         }
     }
